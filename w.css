@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font family: Century Gothic;
+}
+
+header{
+    background-image:url(b4cde73a1d42d64bf11ea684ea1c2dd0.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+
+}
+
+ul li{
+    display:inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+    padding: 5px 20px;
+    border:1px solid black;
+    transition:0.6s;
+}
+ul li a:hover{
+    background-color:orangered;
+    color:green;
+}
+.logo img{
+    float :left;
+    width: 150px;
+    height: auto;
+}
+.main{
+    max-width:1200px;
+    margin:auto;
+}
+.title{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color:white;
+    font-size: 70px;
+}
+.button{
+    position:absolute;
+    top:70%;
+    left:50%;
+    transform:translate(-70%,-50%);
+}
+.btn{
+    border:1px solid black;
+    padding:10px 30px;
+    color:black;
+    text decoration:none;
+    transition:0.6s;
+}
+.btn:hover{
+    background-color:orangered;
+    color:green;
+}
